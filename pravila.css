@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Шрифт для всего документа */
+    background-color: #f9f9f9; /* Светлый фон */
+    color: #000000; /* Черный цвет текста */
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 20px; /* Отступы внутри страницы */
+}
+
+.product-page {
+    max-width: 800px; /* Максимальная ширина страницы */
+    margin: auto; /* Центрируем страницу */
+    padding: 20px; /* Отступы внутри страницы */
+    background-color: #ffffff; /* Белый фон для контейнера */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+
+.product-description {
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.product-image {
+    max-width: 100%; /* Ширина изображения не больше 100% от родителя */
+    border-radius: 5px; /* Закругленные углы изображения */
+}
+
+.button-container {
+    text-align: center; /* Центрируем кнопку */
+}
+
+.back-button {
+    display: inline-block; /* Делаем кнопку блочным элементом */
+    background-color: #0088cc; /* Цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.back-button:hover {
+    background-color: #005f80; /* Цвет кнопки при наведении */
+}
