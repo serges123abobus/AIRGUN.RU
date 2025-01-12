@@ -334,3 +334,23 @@ footer {
 a {
     color: #000000;
 }
+.blog-section {
+    background-color: #f0f8ff; /* Светлый фон для блока */
+    padding: 20px; /* Отступы внутри блока */
+    border-radius: 8px; /* Закругленные углы */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.blog-button {
+    display: inline-block; /* Делаем кнопку блочным элементом */
+    background-color: #0088cc; /* Цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.blog-button:hover {
+    background-color: #005f80; /* Цвет кнопки при наведении */
+}
