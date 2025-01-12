@@ -343,7 +343,7 @@ a {
 
 .blog-button {
     display: inline-block; /* Делаем кнопку блочным элементом */
-    background-color: #0088cc; /* Цвет кнопки */
+    background-color: #007bff; /* Цвет кнопки */
     color: white; /* Цвет текста на кнопке */
     padding: 10px 20px; /* Отступы внутри кнопки */
     text-decoration: none; /* Убираем подчеркивание у ссылки */
@@ -352,5 +352,5 @@ a {
 }
 
 .blog-button:hover {
-    background-color: #005f80; /* Цвет кнопки при наведении */
+    background-color: #0056b3; /* Цвет кнопки при наведении */
 }
